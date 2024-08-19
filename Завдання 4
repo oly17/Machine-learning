@@ -1,0 +1,6 @@
+import numpy as np
+array = np.random.rand(4, 4)
+min_element = np.min(array)
+print("Масив:")
+print(array)
+print("Мінімальний елемент:", min_element)
