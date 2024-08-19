@@ -1,0 +1,7 @@
+import numpy as np
+m = np.random.rand(2, 3)
+transposed_m = np.transpose(m)
+print("Початкова матриця (2x3):")
+print(m)
+print("\nТранспонована матриця (3x2):")
+print(transposed_m)
