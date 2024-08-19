@@ -1,0 +1,10 @@
+import numpy as np
+m = np.random.randint(1, 11, size=(3, 4))
+vector = np.random.randint(1, 11, size=(4, 1))
+product = np.matmul(m, vector)
+print("Матриця (3x4):")
+print(m)
+print("\nВектор (4x1):")
+print(vector)
+print("\nДобуток матриці на вектор:")
+print(product)
