@@ -1,0 +1,11 @@
+import numpy as np
+array1 = np.random.randint(1, 16, size=7)
+array2 = np.random.randint(1, 16, size=7)
+dodavanna = array1 + array2
+vidnimanna = array1 - array2
+mnozenna = array1 * array2
+print("Масив 1:", array1)
+print("Масив 2:", array2)
+print("Додавання:", dodavanna)
+print("Віднімання:", vidnimanna)
+print("Множення:", mnozenna)
