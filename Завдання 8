@@ -1,0 +1,10 @@
+import numpy as np
+matrix = np.random.randint(1, 9, size=(2, 2))
+print("Матриця:")
+print(m)
+if np.linalg.det(m) == 0:
+    print("Матриця є виродженою, і не має оберненої матриці.")
+else:
+    inverse_m = np.linalg.inv(m)
+    print("\nОбернена матриця:")
+    print(inverse_m)
