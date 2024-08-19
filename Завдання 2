@@ -1,0 +1,4 @@
+import numpy as np
+np.random.seed(42)
+m= np.random.rand(3, 3)
+print(m)
