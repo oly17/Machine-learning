@@ -1,0 +1,8 @@
+import numpy as np
+m = np.random.uniform(-0.5, 0.5, size=(5, 5))
+row_sums = np.sum(m, axis=1)
+row_sums_column_vector = row_sums.reshape(-1, 1)
+print("Матриця (5x5):")
+print(m)
+print("\nВектор-стовпчик, що містить суму елементів кожного рядка:")
+print(row_sums_column_vector)
