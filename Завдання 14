@@ -1,0 +1,7 @@
+import numpy as np
+m = np.random.uniform(-1, 1, size=(3, 3))
+sum_of_elements = np.sum(m)
+print("Матриця (3x3):")
+print(m)
+print("\nСума елементів матриці:")
+print(sum_of_elements)
